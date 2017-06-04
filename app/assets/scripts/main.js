@@ -80,9 +80,10 @@ if (!mapboxgl.supported()) {
         },
         "circle-opacity": {
           "stops": [
-            [0, 0.9],
-            [6, 0.75],
-            [12, 0.5]
+            [0, 0.1],
+            [6, 0.5],
+            [12, 0.75],
+            [16, 0.9]
           ]
         }
       }
@@ -91,7 +92,7 @@ if (!mapboxgl.supported()) {
 
     // When a click event occurs near a feature, open a popup.
     map.on('click', function (e) {
-      var features = map.queryRenderedFeatures(e.point);
+      var features = map.queryRenderedFeatures(e.point, { layers: ['eta'] });
       if (!features.length) {
         return;
       }
@@ -100,8 +101,8 @@ if (!mapboxgl.supported()) {
       new mapboxgl.Popup()
         .setLngLat(map.unproject(e.point))
         .setHTML(`<dl>
-          <dt>Name</dt><dd>${feature.properties.name}</dd>
-          <dt>Population</dt><dd>${feature.properties.pop}</dd>
+          <dt>Name</dt><dd>${feature.properties.name || 'unknown'}</dd>
+          <dt>Population</dt><dd>${feature.properties.pop || 'unknown'}</dd>
           <dt>ETA</dt><dd>${Math.floor(feature.properties.eta / 60)} minutes</dd>
         </dl>`)
       .addTo(map);
