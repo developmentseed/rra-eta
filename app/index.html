@@ -1,0 +1,91 @@
+<!doctype html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <link rel="shortcut icon" href="assets/graphics/meta/favicon.ico" type="image/x-icon" />
+    <title>RRA visualization playground</title>
+
+    <!-- build:css assets/styles/vendor.css -->
+    <!-- endbuild -->
+
+    <!-- build:css assets/styles/main.css -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <!-- endbuild -->
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,800" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/native-promise-only/0.8.1/npo.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.2/fetch.min.js"></script> -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <div id="nocando">
+        <h1>No can do!</h1>
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
+
+    <div id="site-canvas">
+      <header class="header">
+        <div class='site-branding'>
+          <h1 class="site-title">RRA visualization playground</h1>
+        </div>
+        <div id="pan">
+          <ul>
+            <li><a href="#" class="pan-target">Global</a></li>
+            <li><a href="#" class="pan-target">Morocco</a></li>
+            <li><a href="#" class="pan-target">Argentina</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <section id="legend">
+        <form id="scale">
+          <input type="radio" name="scale" id="radioFixed" value="fixed" checked> <label for="radioFixed">Fixed</label>
+          <input type="radio" name="scale" id="radioNormalized" value="normalized"> <label for="radioNormalized">Normalized</label>
+        </form>
+
+        <div id="fixed">
+          <h1>Travel time in minutes</h1>
+          <ul>
+            <li class="c1"><span>0</span></li>
+            <li class="c2"><span>10</span></li>
+            <li class="c3"><span>20</span></li>
+            <li class="c4"><span>30</span></li>
+            <li class="c5"><span>60</span></li>
+            <li class="c6"><span>90</span></li>
+            <li class="c7"><span>120</span></li>
+          </ul>
+        </div>
+        <div id="normalized" class="hidden">
+          <h1>Travel times normalized</h1>
+          <span class="gradient">&nbsp;</span>
+          <span>0 - 100%</span>
+        </div>
+      </section>
+
+      <main id='map'></main>
+    </div>
+
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-81901426-4');ga('send','pageview');
+    </script>
+
+    <!-- build:js assets/scripts/vendor.js -->
+    <script src="assets/scripts/vendor.js"></script>
+    <!-- endbuild -->
+    <!-- build:js assets/scripts/bundle.js -->
+    <script src="assets/scripts/bundle.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

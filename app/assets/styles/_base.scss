@@ -1,0 +1,150 @@
+// IE < 10
+// Don't delete.
+
+.lt-ie10 {
+  #site-canvas {
+    display: none;
+  }
+  #nocando {
+    margin: 200px auto;
+    padding: 32px;
+    max-width: 440px;
+    background: #fff;
+    h1 {
+      font-size: 24px;
+      line-height: 1.1;
+      margin-bottom: 32px;
+    }
+  }
+}
+
+html {
+  font-family: 'Muli', sans-serif;
+}
+
+#site-canvas {
+  background-color: $primary-color;
+}
+
+.header {
+  // box-shadow: 0 1px 2px rgba(0,0,0,1);
+  padding: 0 1rem;
+
+  .site-branding {
+    padding: 1rem 0;
+    @include media(medium-up) {
+      float: left;
+    }
+    h1 {
+      color: #fff;
+    }
+
+    .site-subtitle {
+      font-size: 0.625rem;
+      line-height: 1rem;
+      opacity: 0.9;
+      text-transform: uppercase;
+    }
+  }
+}
+
+// The map toggle
+#pan {
+  float: left;
+  padding: 1rem 0;
+  @include media(medium-up) {
+    float: right;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+    margin-right: 1rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: $base-font-bold;
+    text-transform: uppercase;
+    &.active {
+      border-bottom: solid 2px;
+    }
+  }
+}
+
+#legend {
+  position: absolute;
+  overflow: hidden;
+  bottom: 2rem;
+  right: 1rem;
+  z-index: 10;
+
+  padding: 1rem;
+  margin: 0;
+  width: 16rem;
+
+  box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1);
+  background: #fff;
+  border-radius: 0.25rem;
+
+  font-size: 0.75rem;
+  line-height: 1rem;
+
+  #fixed {
+    li {
+      border-top: 1rem;
+      border-style: solid;
+      float: left;
+      width: 2rem;
+      span {
+        display: inline-block;
+        margin-left: -1rem;
+        text-align: center;
+        width: 2rem; 
+      }
+    }
+    .c1 { border-top-color: #1a9850; }
+    .c2 { border-top-color: #91cf60; }
+    .c3 { border-top-color: #d9ef8b; }
+    .c4 { border-top-color: #fee08b; }
+    .c5 { border-top-color: #fc8d59; }
+    .c6 { border-top-color: #d73027; }
+    .c7 { border-top-color: #4d4d4d; }
+  }
+  .gradient {
+    background-image: linear-gradient(90deg, #1a9850, #91cf60, #d9ef8b, #fee08b, #fc8d59, #d73027, #4d4d4d);
+    display: block;
+    width: 14rem;
+  }
+}
+
+#map {
+  height: calc(100vh - 7.5rem);
+  width: 100vw;
+  @include media(medium-up) {
+    height: calc(100vh - 3.5rem);
+  }
+}
+
+.mapboxgl-popup-content {
+  padding: 1rem !important;
+  width: 12rem;
+  dt {
+    float: left;
+    font-weight: $base-font-bold;
+    margin-right: 0.25rem;
+  }
+}
+
+// Overwrite the MB zoom controls
+.mapboxgl-ctrl-top-left .mapboxgl-ctrl {
+  margin: 1rem 0 0 1rem !important;
+}
