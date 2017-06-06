@@ -127,7 +127,7 @@ if (!mapboxgl.supported()) {
           ]
         }
       }
-    }, 'poi-scalerank2');
+    }, 'poi');
 
 
     map.addLayer({
