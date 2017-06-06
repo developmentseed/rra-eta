@@ -5,16 +5,10 @@
 /* Colors
    ========================================================================== */
 
-$base-color: #2E4C45;                                   // Dark gray-ish green
-$primary-color: #009fda;                                // Green
-// $secondary-color: #287895;                              // Jelly Bean
+$base-color: #2E4C45;                                     // Dark gray-ish green
+$primary-color: #009fda;                                  // Blue
 
-// $accent-color: #00B380;                                 // Dark green
-
-$danger-color: #FF5722;                                 // Red
-// $success-color: $accent-color;                          // Dark green
-// $warning-color: #f6d55f;                                // Yellow
-// $info-color: #35A2D8;                                   // Blue
+$danger-color: #FF5722;                                   // Red
 
 $link-color: $primary-color;
 $base-alpha-color: rgba($base-color, 0.08);

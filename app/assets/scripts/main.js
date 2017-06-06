@@ -2,7 +2,8 @@
 'use strict';
 import config from './config';
 
-import data from '../data/data.js';
+import etaData from '../data/eta.js';
+import poiData from '../data/poi.js';
 
 console.log.apply(console, config.consoleMessage);
 console.log('Environment', config.environment);
@@ -96,23 +97,23 @@ if (!mapboxgl.supported()) {
 } else {
   var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/light-v9',
-
+    style: 'mapbox://styles/mapbox/light-v9'
   });
   map.on('load', function () {
-    map.addSource('eta-data', {
+    map.addSource('etaSource', {
       type: 'geojson',
-      data: data
+      data: etaData
+    })
+    map.addSource('poiSource', {
+      type: 'geojson',
+      data: poiData
     })
     map.addControl(new mapboxgl.NavigationControl(), 'top-left');
 
     map.addLayer({
       'id': 'eta',
       'type': 'circle',
-      'source': 'eta-data',
-      'layout': {
-        'visibility': 'visible'
-      },
+      'source': 'etaSource',
       'paint': {
         "circle-color": scaleStyles['colorEtaBuckets'],
         "circle-radius": radiusStyles['radiusPopNormalized'],
@@ -129,28 +130,78 @@ if (!mapboxgl.supported()) {
     }, 'poi-scalerank2');
 
 
+    map.addLayer({
+      'id': 'poi',
+      'source': 'poiSource',
+      'layout': {
+        'visibility': 'visible'
+      },
+      'type': 'circle',
+      'paint': {
+        'circle-color': '#009fda',
+        'circle-stroke-width': {
+          "stops": [
+            [0, 0],
+            [6,2]
+          ]
+        },
+        'circle-stroke-color': '#fff',
+        'circle-radius': {
+          "stops": [
+            [0, 0],
+            [6, 5],
+            [14, 15]
+          ]
+        }
+      }
+    }, 'poi-scalerank2');
+
     // When a click event occurs near a feature, open a popup.
     map.on('click', function (e) {
-      var features = map.queryRenderedFeatures(e.point, { layers: ['eta'] });
+      var features = map.queryRenderedFeatures(e.point, { layers: ['eta', 'poi'] });
       if (!features.length) {
         return;
       }
       var feature = features[0];
 
+      let popupHTML = '';
+
+      switch(feature.layer.id) {
+        case 'eta':
+          popupHTML = `<h1>Origin</h1>
+            <dl>
+              <dt>Name</dt><dd>${feature.properties.name || 'unknown'}</dd>
+              <dt>Population</dt><dd>${feature.properties.pop || 'unknown'}</dd>
+              <dt>ETA</dt><dd>${Math.floor(feature.properties.eta / 60)} minutes</dd>
+            </dl>`
+          break;
+        case 'poi':
+          popupHTML = `<h1>Destination</h1>
+            <dl>
+              <dt>Name</dt><dd>${feature.properties.name || 'unknown'}</dd>
+            </dl>`
+          break;
+      }
+
       new mapboxgl.Popup()
         .setLngLat(map.unproject(e.point))
-        .setHTML(`<dl>
-          <dt>Name</dt><dd>${feature.properties.name || 'unknown'}</dd>
-          <dt>Population</dt><dd>${feature.properties.pop || 'unknown'}</dd>
-          <dt>ETA</dt><dd>${Math.floor(feature.properties.eta / 60)} minutes</dd>
-        </dl>`)
-      .addTo(map);
+        .setHTML(popupHTML)
+        .addTo(map);
     });
     // Use the same approach as above to indicate that the symbols are clickable
     // by changing the cursor style to 'pointer'.
     map.on('mousemove', function (e) {
       var features = map.queryRenderedFeatures(e.point);
       map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+    });
+
+    // Show / hide destination markers
+    document.getElementById('checkboxDestinations').addEventListener('click', function (e) {
+      if (e.target.checked) {
+        map.setLayoutProperty('poi', 'visibility', 'visible')
+      } else {
+        map.setLayoutProperty('poi', 'visibility', 'none')
+      }
     });
 
     // Change the Color Scale of the map
