@@ -224,17 +224,12 @@ if (!mapboxgl.supported()) {
     // Change the Circle Width of the map
     var currentCircleWidth = 'radiusPopNormalized';
     document.getElementById('circleWidth').addEventListener('click', function (e) {
-      console.log(currentCircleWidth)
-      console.log(e)
       if (e.target.value) {
         var clickedOption = e.target.value;
         if (clickedOption !== currentCircleWidth) {
           // Change the style of the points
           map.setPaintProperty('eta', 'circle-radius', radiusStyles[clickedOption]);
 
-          // // Update legend with new scale
-          // document.getElementById(currentCircleWidth).classList.add('hidden');
-          // document.getElementById(clickedOption).classList.remove('hidden');
           currentCircleWidth = clickedOption
         }
       }
