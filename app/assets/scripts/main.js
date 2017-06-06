@@ -257,6 +257,12 @@ if (!mapboxgl.supported()) {
               [-61.8066014761,-21.8945164799]
             ]
             break;
+          case 'brazil':
+            bbox = [
+              [-38.251031,-11.5250972],
+              [-37.5003102,-10.6915694]
+            ]
+            break;
         }
         map.fitBounds(bbox, { padding: 20 });
       }

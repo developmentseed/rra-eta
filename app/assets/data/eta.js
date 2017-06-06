@@ -125641,6 +125641,3485 @@ export default
           32.5
         ]
       }
+    },    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tomar do Geru",
+        "place": "town",
+        "pop": 13252,
+        "eta": 1410,
+        "popNorm": 0.27,
+        "etaNorm": 0.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8413399,
+          -11.3752475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Murici",
+        "place": "hamlet",
+        "eta": 1307,
+        "popNorm": 0,
+        "etaNorm": 0.23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.846646,
+          -11.3650711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campo Grande",
+        "place": "hamlet",
+        "eta": 1834,
+        "popNorm": 0,
+        "etaNorm": 0.32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9429025,
+          -11.2952442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Umbaúba",
+        "place": "town",
+        "pop": 21195,
+        "eta": 24,
+        "popNorm": 0.43,
+        "etaNorm": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6565562,
+          -11.3826792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tobias Barreto",
+        "place": "town",
+        "pop": 48733,
+        "eta": 16,
+        "popNorm": 1,
+        "etaNorm": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0034554,
+          -11.188034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pé-de-boi",
+        "place": "hamlet",
+        "eta": 2454,
+        "popNorm": 0,
+        "etaNorm": 0.43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0567977,
+          -11.115332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campo Pequeno",
+        "place": "hamlet",
+        "eta": 959,
+        "popNorm": 0,
+        "etaNorm": 0.17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9083693,
+          -11.1163754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pau de Colher",
+        "place": "hamlet",
+        "eta": 707,
+        "popNorm": 0,
+        "etaNorm": 0.13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9223392,
+          -11.1404922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanque Grande",
+        "place": "hamlet",
+        "eta": 1197,
+        "popNorm": 0,
+        "etaNorm": 0.21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8487983,
+          -11.1107126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cancelão",
+        "place": "hamlet",
+        "eta": 1107,
+        "popNorm": 0,
+        "etaNorm": 0.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8975742,
+          -11.1063232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pé-de-Boi",
+        "place": "hamlet",
+        "eta": 2320,
+        "popNorm": 0,
+        "etaNorm": 0.41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0539852,
+          -11.1102292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boiadeiro",
+        "place": "hamlet",
+        "eta": 875,
+        "popNorm": 0,
+        "etaNorm": 0.15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0357301,
+          -11.1023046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fortinha",
+        "place": "hamlet",
+        "eta": 950,
+        "popNorm": 0,
+        "etaNorm": 0.17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0231934,
+          -11.1002779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paiva",
+        "place": "hamlet",
+        "eta": 843,
+        "popNorm": 0,
+        "etaNorm": 0.15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9902345,
+          -11.1277076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riacho Fundo",
+        "place": "hamlet",
+        "eta": 886,
+        "popNorm": 0,
+        "etaNorm": 0.16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9158783,
+          -11.1910214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Capitôa",
+        "place": "hamlet",
+        "eta": 1514,
+        "popNorm": 0,
+        "etaNorm": 0.27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0387771,
+          -11.0458346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mangueira",
+        "place": "hamlet",
+        "eta": 2268,
+        "popNorm": 0,
+        "etaNorm": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9053923,
+          -11.0513173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jabiberi",
+        "place": "hamlet",
+        "eta": 1411,
+        "popNorm": 0,
+        "etaNorm": 0.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9524773,
+          -11.0682274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Agrovila",
+        "place": "hamlet",
+        "eta": 1499,
+        "popNorm": 0,
+        "etaNorm": 0.27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9258346,
+          -11.0702679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barriga",
+        "place": "hamlet",
+        "eta": 1353,
+        "popNorm": 0,
+        "etaNorm": 0.24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0088705,
+          -11.0742144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campestre do Abreu",
+        "place": "hamlet",
+        "eta": 2245,
+        "popNorm": 0,
+        "etaNorm": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.004182,
+          -11.0094193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madeiro",
+        "place": "hamlet",
+        "eta": 2186,
+        "popNorm": 0,
+        "etaNorm": 0.39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9827726,
+          -11.0205218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riacho Grande",
+        "place": "hamlet",
+        "eta": 1662,
+        "popNorm": 0,
+        "etaNorm": 0.29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0084145,
+          -11.0571989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanque",
+        "place": "hamlet",
+        "eta": 2136,
+        "popNorm": 0,
+        "etaNorm": 0.38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9729235,
+          -11.0398034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taquara",
+        "place": "hamlet",
+        "eta": 2300,
+        "popNorm": 0,
+        "etaNorm": 0.41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0476954,
+          -10.9800353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nova Brasília",
+        "place": "hamlet",
+        "eta": 1350,
+        "popNorm": 0,
+        "etaNorm": 0.24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0499914,
+          -11.0517563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Curral dos Bois",
+        "place": "hamlet",
+        "eta": 4163,
+        "popNorm": 0,
+        "etaNorm": 0.74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9198119,
+          -10.8627301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "São Domingos",
+        "place": "hamlet",
+        "eta": 4638,
+        "popNorm": 0,
+        "etaNorm": 0.82
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9089048,
+          -10.7772682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Triunfo",
+        "place": "hamlet",
+        "eta": 4772,
+        "popNorm": 0,
+        "etaNorm": 0.84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9413481,
+          -10.7930091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Batatal",
+        "place": "hamlet",
+        "eta": 5103,
+        "popNorm": 0,
+        "etaNorm": 0.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9368064,
+          -10.807429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galho Quebrado",
+        "place": "hamlet",
+        "eta": 5370,
+        "popNorm": 0,
+        "etaNorm": 0.95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.936978,
+          -10.8325518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simão Dias",
+        "place": "town",
+        "eta": 3902,
+        "popNorm": 0,
+        "etaNorm": 0.69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8092502,
+          -10.7389663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flexas",
+        "place": "hamlet",
+        "eta": 3879,
+        "popNorm": 0,
+        "etaNorm": 0.69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7272664,
+          -10.7877822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pombo",
+        "place": "hamlet",
+        "eta": 4084,
+        "popNorm": 0,
+        "etaNorm": 0.72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.721467,
+          -10.7676378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jaqueira",
+        "place": "hamlet",
+        "eta": 4294,
+        "popNorm": 0,
+        "etaNorm": 0.76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.750416,
+          -10.7531658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pirajá",
+        "place": "hamlet",
+        "eta": 4513,
+        "popNorm": 0,
+        "etaNorm": 0.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.760717,
+          -10.7287389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salobro",
+        "place": "hamlet",
+        "eta": 4206,
+        "popNorm": 0,
+        "etaNorm": 0.74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7391447,
+          -10.757502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aroeira",
+        "place": "hamlet",
+        "eta": 4873,
+        "popNorm": 0,
+        "etaNorm": 0.86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.937624,
+          -10.7746432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barnabé",
+        "place": "hamlet",
+        "eta": 4469,
+        "popNorm": 0,
+        "etaNorm": 0.79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8839181,
+          -10.7734408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brinquinho",
+        "place": "hamlet",
+        "eta": 4840,
+        "popNorm": 0,
+        "etaNorm": 0.86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8865106,
+          -10.7397987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fundas",
+        "place": "hamlet",
+        "eta": 4698,
+        "popNorm": 0,
+        "etaNorm": 0.83
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8760277,
+          -10.7442267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paracatu de Baixo",
+        "place": "hamlet",
+        "eta": 4578,
+        "popNorm": 0,
+        "etaNorm": 0.81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8759109,
+          -10.7499898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pau de Colher",
+        "place": "hamlet",
+        "eta": 4931,
+        "popNorm": 0,
+        "etaNorm": 0.87
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8745628,
+          -10.7782493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poço D'Antas",
+        "place": "hamlet",
+        "eta": 4761,
+        "popNorm": 0,
+        "etaNorm": 0.84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9212819,
+          -10.7775029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pastinho",
+        "place": "hamlet",
+        "eta": 4296,
+        "popNorm": 0,
+        "etaNorm": 0.76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8522885,
+          -10.7652673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pau de Leite",
+        "place": "hamlet",
+        "eta": 4368,
+        "popNorm": 0,
+        "etaNorm": 0.77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8303909,
+          -10.8265618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "São Domingos",
+        "place": "town",
+        "pop": 10443,
+        "eta": 3541,
+        "popNorm": 0.21,
+        "etaNorm": 0.63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5667586,
+          -10.7903753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pilão",
+        "place": "hamlet",
+        "eta": 3488,
+        "popNorm": 0,
+        "etaNorm": 0.62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0943915,
+          -11.0248651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monte Coelhos",
+        "place": "hamlet",
+        "eta": 2406,
+        "popNorm": 0,
+        "etaNorm": 0.43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.1641454,
+          -10.9819604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jacaré",
+        "place": "hamlet",
+        "eta": 1926,
+        "popNorm": 0,
+        "etaNorm": 0.34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0611751,
+          -11.0159348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pilão",
+        "place": "hamlet",
+        "eta": 2104,
+        "popNorm": 0,
+        "etaNorm": 0.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.098028,
+          -11.0062864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Queimada",
+        "place": "hamlet",
+        "eta": 2606,
+        "popNorm": 0,
+        "etaNorm": 0.46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.1563987,
+          -10.9671265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arapuá",
+        "place": "hamlet",
+        "eta": 2663,
+        "popNorm": 0,
+        "etaNorm": 0.47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.1742998,
+          -10.9689407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sotero",
+        "place": "hamlet",
+        "eta": 2728,
+        "popNorm": 0,
+        "etaNorm": 0.48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.1124253,
+          -10.9520647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alagoinhas",
+        "place": "hamlet",
+        "eta": 2228,
+        "popNorm": 0,
+        "etaNorm": 0.39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.1364485,
+          -10.9872916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sariema",
+        "place": "hamlet",
+        "eta": 3392,
+        "popNorm": 0,
+        "etaNorm": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.1527965,
+          -10.9083988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Curtume",
+        "place": "hamlet",
+        "eta": 3216,
+        "popNorm": 0,
+        "etaNorm": 0.57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.118896,
+          -10.8643673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pedra de Amolar",
+        "place": "hamlet",
+        "eta": 2690,
+        "popNorm": 0,
+        "etaNorm": 0.48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0995949,
+          -10.9170044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saco Encantado",
+        "place": "hamlet",
+        "eta": 1640,
+        "popNorm": 0,
+        "etaNorm": 0.29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5165613,
+          -11.0059842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Agua Fria",
+        "place": "hamlet",
+        "eta": 1516,
+        "popNorm": 0,
+        "etaNorm": 0.27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5172095,
+          -11.0009458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matata",
+        "place": "hamlet",
+        "eta": 1532,
+        "popNorm": 0,
+        "etaNorm": 0.27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.509143,
+          -11.0087166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riachão do Dantas",
+        "place": "town",
+        "pop": 19567,
+        "eta": 1345,
+        "popNorm": 0.4,
+        "etaNorm": 0.24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.726446,
+          -11.0704439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanque Novo",
+        "place": "hamlet",
+        "eta": 1398,
+        "popNorm": 0,
+        "etaNorm": 0.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8209102,
+          -11.101542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bonfim",
+        "place": "hamlet",
+        "eta": 2115,
+        "popNorm": 0,
+        "etaNorm": 0.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8545688,
+          -11.0398509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "São José",
+        "place": "hamlet",
+        "eta": 4407,
+        "popNorm": 0,
+        "etaNorm": 0.78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7450606,
+          -11.0376703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Várzea Grande",
+        "place": "hamlet",
+        "eta": 2962,
+        "popNorm": 0,
+        "etaNorm": 0.52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7701728,
+          -11.1332529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Curralinho",
+        "place": "hamlet",
+        "eta": 2289,
+        "popNorm": 0,
+        "etaNorm": 0.41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7043386,
+          -11.0269109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Formosa",
+        "place": "hamlet",
+        "eta": 2825,
+        "popNorm": 0,
+        "etaNorm": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.843273,
+          -10.994512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "João Amazonas",
+        "place": "hamlet",
+        "eta": 3367,
+        "popNorm": 0,
+        "etaNorm": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8005469,
+          -11.0196034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pau D'arco",
+        "place": "hamlet",
+        "eta": 4147,
+        "popNorm": 0,
+        "etaNorm": 0.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8238402,
+          -11.000261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pindoba",
+        "place": "hamlet",
+        "eta": 2799,
+        "popNorm": 0,
+        "etaNorm": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8757651,
+          -11.0010105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanque",
+        "place": "hamlet",
+        "eta": 2544,
+        "popNorm": 0,
+        "etaNorm": 0.45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7278144,
+          -11.0155686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cipó Grande",
+        "place": "hamlet",
+        "eta": 1058,
+        "popNorm": 0,
+        "etaNorm": 0.19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6586866,
+          -11.1303894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olhos D'Agua da Bica",
+        "place": "hamlet",
+        "eta": 2030,
+        "popNorm": 0,
+        "etaNorm": 0.36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7858238,
+          -11.1295139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poço Verde",
+        "place": "town",
+        "pop": 21721,
+        "eta": 4741,
+        "popNorm": 0.45,
+        "etaNorm": 0.84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.1766851,
+          -10.7108776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Junco",
+        "place": "hamlet",
+        "eta": 4306,
+        "popNorm": 0,
+        "etaNorm": 0.76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.175863,
+          -10.924904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malhada da Onça",
+        "place": "hamlet",
+        "eta": 4793,
+        "popNorm": 0,
+        "etaNorm": 0.85
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.1371352,
+          -10.8487372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "São José",
+        "place": "hamlet",
+        "eta": 5373,
+        "popNorm": 0,
+        "etaNorm": 0.95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0820627,
+          -10.7262789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aroeira Velha",
+        "place": "hamlet",
+        "eta": 4559,
+        "popNorm": 0,
+        "etaNorm": 0.81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0951873,
+          -10.8015421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caraíba de Cima",
+        "place": "hamlet",
+        "eta": 5286,
+        "popNorm": 0,
+        "etaNorm": 0.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9852382,
+          -10.7665109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Corimbas",
+        "place": "hamlet",
+        "eta": 4845,
+        "popNorm": 0,
+        "etaNorm": 0.86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0570118,
+          -10.78315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ponta da Serra",
+        "place": "hamlet",
+        "eta": 5159,
+        "popNorm": 0,
+        "etaNorm": 0.91
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0675944,
+          -10.7652865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Recanto",
+        "place": "hamlet",
+        "eta": 5553,
+        "popNorm": 0,
+        "etaNorm": 0.98
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0566281,
+          -10.7343175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saco da Camisa",
+        "place": "hamlet",
+        "eta": 5062,
+        "popNorm": 0,
+        "etaNorm": 0.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0536519,
+          -10.76537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tabuleirinho",
+        "place": "hamlet",
+        "eta": 5611,
+        "popNorm": 0,
+        "etaNorm": 0.99
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0153755,
+          -10.7518586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cacimba Nova",
+        "place": "hamlet",
+        "eta": 5649,
+        "popNorm": 0,
+        "etaNorm": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0435748,
+          -10.7356656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mangabeira",
+        "place": "hamlet",
+        "eta": 3779,
+        "popNorm": 0,
+        "etaNorm": 0.67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9000331,
+          -10.9488643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oiteros",
+        "place": "hamlet",
+        "eta": 3569,
+        "popNorm": 0,
+        "etaNorm": 0.63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9535832,
+          -10.9069798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boqueirão",
+        "place": "hamlet",
+        "eta": 3014,
+        "popNorm": 0,
+        "etaNorm": 0.53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8925388,
+          -10.9645883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tapera de Macambira",
+        "place": "hamlet",
+        "eta": 5248,
+        "popNorm": 0,
+        "etaNorm": 0.93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5391614,
+          -10.6915694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campo do Crioulo",
+        "place": "hamlet",
+        "eta": 2424,
+        "popNorm": 0,
+        "etaNorm": 0.43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7692947,
+          -10.9818089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Urubutinga",
+        "place": "hamlet",
+        "eta": 2810,
+        "popNorm": 0,
+        "etaNorm": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6263467,
+          -10.907531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mariquita de Baixo",
+        "place": "hamlet",
+        "eta": 3596,
+        "popNorm": 0,
+        "etaNorm": 0.64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.693552,
+          -10.8102383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rio Fundo",
+        "place": "hamlet",
+        "eta": 3253,
+        "popNorm": 0,
+        "etaNorm": 0.58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7159201,
+          -10.8197927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santo Antonio",
+        "place": "hamlet",
+        "eta": 2463,
+        "popNorm": 0,
+        "etaNorm": 0.44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7152313,
+          -10.9358386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brejo Meio",
+        "place": "hamlet",
+        "eta": 2266,
+        "popNorm": 0,
+        "etaNorm": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6311358,
+          -10.9731741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barro Vermelho",
+        "place": "hamlet",
+        "eta": 2801,
+        "popNorm": 0,
+        "etaNorm": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.685771,
+          -10.8870542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Assentamento Tiradentes",
+        "place": "hamlet",
+        "eta": 3852,
+        "popNorm": 0,
+        "etaNorm": 0.68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6233545,
+          -10.8250493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bomfim",
+        "place": "hamlet",
+        "eta": 3657,
+        "popNorm": 0,
+        "etaNorm": 0.65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.71865,
+          -10.8003386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brejo baixo",
+        "place": "hamlet",
+        "eta": 2449,
+        "popNorm": 0,
+        "etaNorm": 0.43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.626301,
+          -10.9855254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brejo cima",
+        "place": "hamlet",
+        "eta": 2151,
+        "popNorm": 0,
+        "etaNorm": 0.38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6347392,
+          -10.9660138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caldeirão",
+        "place": "hamlet",
+        "eta": 4369,
+        "popNorm": 0,
+        "etaNorm": 0.77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7778969,
+          -10.8819749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carcará",
+        "place": "hamlet",
+        "eta": 3502,
+        "popNorm": 0,
+        "etaNorm": 0.62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7277205,
+          -10.802355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cipó",
+        "place": "hamlet",
+        "eta": 2435,
+        "popNorm": 0,
+        "etaNorm": 0.43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6068758,
+          -10.9631293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Colégio",
+        "place": "hamlet",
+        "eta": 2986,
+        "popNorm": 0,
+        "etaNorm": 0.53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7937514,
+          -10.9998618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gameleiro",
+        "place": "hamlet",
+        "eta": 2643,
+        "popNorm": 0,
+        "etaNorm": 0.47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6098897,
+          -10.9229692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jibóia",
+        "place": "hamlet",
+        "eta": 2855,
+        "popNorm": 0,
+        "etaNorm": 0.51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7066599,
+          -10.9665546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pururuca",
+        "place": "hamlet",
+        "eta": 3759,
+        "popNorm": 0,
+        "etaNorm": 0.67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7856796,
+          -10.8724369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Retiro",
+        "place": "hamlet",
+        "eta": 4130,
+        "popNorm": 0,
+        "etaNorm": 0.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6481452,
+          -10.8022887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saco Grande",
+        "place": "hamlet",
+        "eta": 2427,
+        "popNorm": 0,
+        "etaNorm": 0.43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6240891,
+          -10.9915553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saco Redondo",
+        "place": "hamlet",
+        "eta": 3966,
+        "popNorm": 0,
+        "etaNorm": 0.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7837225,
+          -10.9312587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taperinha",
+        "place": "hamlet",
+        "eta": 3372,
+        "popNorm": 0,
+        "etaNorm": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7235186,
+          -10.8264183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uzeda",
+        "place": "hamlet",
+        "eta": 2078,
+        "popNorm": 0,
+        "etaNorm": 0.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6194925,
+          -10.9671505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "22 de Novembro",
+        "place": "hamlet",
+        "eta": 3107,
+        "popNorm": 0,
+        "etaNorm": 0.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7884886,
+          -10.9388005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cajazeira",
+        "place": "hamlet",
+        "eta": 2841,
+        "popNorm": 0,
+        "etaNorm": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6686497,
+          -11.0002947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Candial",
+        "place": "hamlet",
+        "eta": 2713,
+        "popNorm": 0,
+        "etaNorm": 0.48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6588574,
+          -11.0255944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cocão",
+        "place": "hamlet",
+        "eta": 2826,
+        "popNorm": 0,
+        "etaNorm": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6613043,
+          -10.9711144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Curralinho",
+        "place": "hamlet",
+        "eta": 2113,
+        "popNorm": 0,
+        "etaNorm": 0.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7075732,
+          -11.0024182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandela",
+        "place": "hamlet",
+        "eta": 3240,
+        "popNorm": 0,
+        "etaNorm": 0.57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.821028,
+          -10.9805714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moita Redonda",
+        "place": "hamlet",
+        "eta": 2209,
+        "popNorm": 0,
+        "etaNorm": 0.39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6342077,
+          -10.9491242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Morcego",
+        "place": "hamlet",
+        "eta": 3376,
+        "popNorm": 0,
+        "etaNorm": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7525108,
+          -10.8952998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oiteros",
+        "place": "hamlet",
+        "eta": 3467,
+        "popNorm": 0,
+        "etaNorm": 0.61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8274831,
+          -10.9050362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Papagaio",
+        "place": "hamlet",
+        "eta": 4303,
+        "popNorm": 0,
+        "etaNorm": 0.76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8574965,
+          -10.8980459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pindoba",
+        "place": "hamlet",
+        "eta": 3675,
+        "popNorm": 0,
+        "etaNorm": 0.65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8352556,
+          -10.969841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sobrado",
+        "place": "hamlet",
+        "eta": 1954,
+        "popNorm": 0,
+        "etaNorm": 0.35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6224444,
+          -10.9588554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Assentamento Mártires D'Eldorado",
+        "place": "hamlet",
+        "eta": 3665,
+        "popNorm": 0,
+        "etaNorm": 0.65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6097658,
+          -10.825404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cabocla",
+        "place": "hamlet",
+        "eta": 3110,
+        "popNorm": 0,
+        "etaNorm": 0.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7553228,
+          -10.9437485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cavaleira",
+        "place": "hamlet",
+        "eta": 3618,
+        "popNorm": 0,
+        "etaNorm": 0.64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8143167,
+          -10.8903721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crioulo de Cima",
+        "place": "hamlet",
+        "eta": 2812,
+        "popNorm": 0,
+        "etaNorm": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7510319,
+          -10.9630012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fazenda Grande",
+        "place": "hamlet",
+        "eta": 2322,
+        "popNorm": 0,
+        "etaNorm": 0.41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6318872,
+          -10.9380585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marilopes",
+        "place": "hamlet",
+        "eta": 2577,
+        "popNorm": 0,
+        "etaNorm": 0.46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6142504,
+          -10.93066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palma",
+        "place": "hamlet",
+        "eta": 4133,
+        "popNorm": 0,
+        "etaNorm": 0.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8191221,
+          -10.9275454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saco do Tigre",
+        "place": "hamlet",
+        "eta": 3178,
+        "popNorm": 0,
+        "etaNorm": 0.56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8018928,
+          -10.9532073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanque",
+        "place": "hamlet",
+        "eta": 1973,
+        "popNorm": 0,
+        "etaNorm": 0.35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7223154,
+          -10.9927336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tapera do Nico",
+        "place": "hamlet",
+        "eta": 2921,
+        "popNorm": 0,
+        "etaNorm": 0.52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6492815,
+          -10.882282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tapera dos Modestos",
+        "place": "hamlet",
+        "eta": 3624,
+        "popNorm": 0,
+        "etaNorm": 0.64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6937441,
+          -10.8233196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Varzea do Cagados",
+        "place": "hamlet",
+        "eta": 2231,
+        "popNorm": 0,
+        "etaNorm": 0.39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6452658,
+          -10.9452995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moreira",
+        "place": "hamlet",
+        "eta": 3156,
+        "popNorm": 0,
+        "etaNorm": 0.56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6642612,
+          -10.8712931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moreirinha",
+        "place": "hamlet",
+        "eta": 3198,
+        "popNorm": 0,
+        "etaNorm": 0.57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6735311,
+          -10.8613999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quilombo",
+        "place": "hamlet",
+        "eta": 3283,
+        "popNorm": 0,
+        "etaNorm": 0.58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7461307,
+          -10.8152478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coqueiro",
+        "place": "hamlet",
+        "eta": 2658,
+        "popNorm": 0,
+        "etaNorm": 0.47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6811369,
+          -10.8973517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tabuleiro",
+        "place": "hamlet",
+        "eta": 2551,
+        "popNorm": 0,
+        "etaNorm": 0.45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7041566,
+          -10.9271681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Itaperinha",
+        "place": "hamlet",
+        "eta": 2316,
+        "popNorm": 0,
+        "etaNorm": 0.41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6937497,
+          -10.9393245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pau de Ferro",
+        "place": "hamlet",
+        "eta": 5266,
+        "popNorm": 0,
+        "etaNorm": 0.93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6738147,
+          -10.7264186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palestina",
+        "place": "hamlet",
+        "eta": 4601,
+        "popNorm": 0,
+        "etaNorm": 0.81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6516308,
+          -10.7482544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Piabas",
+        "place": "hamlet",
+        "eta": 4127,
+        "popNorm": 0,
+        "etaNorm": 0.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6992393,
+          -10.7738765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saboeiro",
+        "place": "hamlet",
+        "eta": 4606,
+        "popNorm": 0,
+        "etaNorm": 0.82
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6224538,
+          -10.7910038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mariquita de Cima",
+        "place": "hamlet",
+        "eta": 3810,
+        "popNorm": 0,
+        "etaNorm": 0.67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6968522,
+          -10.7959678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quipé",
+        "place": "hamlet",
+        "eta": 4008,
+        "popNorm": 0,
+        "etaNorm": 0.71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7071913,
+          -10.7917932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Preguiça",
+        "place": "hamlet",
+        "eta": 2920,
+        "popNorm": 0,
+        "etaNorm": 0.52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5086145,
+          -10.9471452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Camilo Torres",
+        "place": "hamlet",
+        "eta": 3016,
+        "popNorm": 0,
+        "etaNorm": 0.53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5912817,
+          -10.8584721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alto",
+        "place": "hamlet",
+        "eta": 3239,
+        "popNorm": 0,
+        "etaNorm": 0.57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5478425,
+          -10.8899624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Assentamento Karl Marks",
+        "place": "hamlet",
+        "eta": 3093,
+        "popNorm": 0,
+        "etaNorm": 0.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5792355,
+          -10.8682754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Açu Velho",
+        "place": "hamlet",
+        "eta": 2395,
+        "popNorm": 0,
+        "etaNorm": 0.42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5672718,
+          -10.924105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Açuzinho",
+        "place": "hamlet",
+        "eta": 2071,
+        "popNorm": 0,
+        "etaNorm": 0.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5568655,
+          -10.946425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boa Vista",
+        "place": "hamlet",
+        "eta": 2800,
+        "popNorm": 0,
+        "etaNorm": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5679203,
+          -10.9141719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Britinho",
+        "place": "hamlet",
+        "eta": 3081,
+        "popNorm": 0,
+        "etaNorm": 0.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5548729,
+          -10.8771979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cacho da Banana",
+        "place": "hamlet",
+        "eta": 2453,
+        "popNorm": 0,
+        "etaNorm": 0.43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5142013,
+          -10.9591855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caraíbas",
+        "place": "hamlet",
+        "eta": 2528,
+        "popNorm": 0,
+        "etaNorm": 0.45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5834303,
+          -10.9308329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cova da onça",
+        "place": "hamlet",
+        "eta": 1898,
+        "popNorm": 0,
+        "etaNorm": 0.34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5735659,
+          -10.9663052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galo Assanhado",
+        "place": "hamlet",
+        "eta": 1452,
+        "popNorm": 0,
+        "etaNorm": 0.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5539373,
+          -11.0098573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luiz Freire",
+        "place": "hamlet",
+        "eta": 2059,
+        "popNorm": 0,
+        "etaNorm": 0.36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5677043,
+          -10.9523944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luizão",
+        "place": "hamlet",
+        "eta": 3332,
+        "popNorm": 0,
+        "etaNorm": 0.59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5003102,
+          -10.8897898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moita",
+        "place": "hamlet",
+        "eta": 3127,
+        "popNorm": 0,
+        "etaNorm": 0.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.555546,
+          -10.8905028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pau Grande",
+        "place": "hamlet",
+        "eta": 2163,
+        "popNorm": 0,
+        "etaNorm": 0.38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5241048,
+          -10.9632493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Periquito Pelado",
+        "place": "hamlet",
+        "eta": 1456,
+        "popNorm": 0,
+        "etaNorm": 0.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5315796,
+          -10.9916111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qui",
+        "place": "hamlet",
+        "eta": 2310,
+        "popNorm": 0,
+        "etaNorm": 0.41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5959399,
+          -10.9706119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rio das Vaca",
+        "place": "hamlet",
+        "eta": 1661,
+        "popNorm": 0,
+        "etaNorm": 0.29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5701528,
+          -11.0077777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Timbales",
+        "place": "hamlet",
+        "eta": 2156,
+        "popNorm": 0,
+        "etaNorm": 0.38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.548445,
+          -10.9328957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Urubu Grande",
+        "place": "hamlet",
+        "eta": 2890,
+        "popNorm": 0,
+        "etaNorm": 0.51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5680186,
+          -10.8825475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Varzea do Espinho",
+        "place": "hamlet",
+        "eta": 2957,
+        "popNorm": 0,
+        "etaNorm": 0.52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5381799,
+          -10.894057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pé da Serra",
+        "place": "hamlet",
+        "eta": 2287,
+        "popNorm": 0,
+        "etaNorm": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5912378,
+          -10.9503154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boa Vista do Urubu",
+        "place": "hamlet",
+        "eta": 2815,
+        "popNorm": 0,
+        "etaNorm": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5624875,
+          -10.8953035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Juerana",
+        "place": "hamlet",
+        "eta": 2251,
+        "popNorm": 0,
+        "etaNorm": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5371942,
+          -10.941781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mangabeira",
+        "place": "hamlet",
+        "eta": 1540,
+        "popNorm": 0,
+        "etaNorm": 0.27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5753919,
+          -11.0284893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poeirão",
+        "place": "hamlet",
+        "eta": 2060,
+        "popNorm": 0,
+        "etaNorm": 0.36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.544879,
+          -10.9593531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Araçá",
+        "place": "hamlet",
+        "eta": 2856,
+        "popNorm": 0,
+        "etaNorm": 0.51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5184258,
+          -10.8968003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "João Martins",
+        "place": "hamlet",
+        "eta": 3630,
+        "popNorm": 0,
+        "etaNorm": 0.64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5019962,
+          -10.9022071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Itabaianinha",
+        "place": "town",
+        "pop": 38565,
+        "eta": 11,
+        "popNorm": 0.79,
+        "etaNorm": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.78666,
+          -11.2760142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ilha",
+        "place": "hamlet",
+        "eta": 911,
+        "popNorm": 0,
+        "etaNorm": 0.16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8838894,
+          -11.2458693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jardim",
+        "place": "hamlet",
+        "eta": 555,
+        "popNorm": 0,
+        "etaNorm": 0.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.749518,
+          -11.3301519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Indiaroba",
+        "place": "town",
+        "pop": 17677,
+        "eta": 68,
+        "popNorm": 0.36,
+        "etaNorm": 0.01
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5075262,
+          -11.5250972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Limoeiro",
+        "place": "hamlet",
+        "eta": 1348,
+        "popNorm": 0,
+        "etaNorm": 0.24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5277869,
+          -11.2036485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sambaíba",
+        "place": "hamlet",
+        "pop": 18908,
+        "eta": 537,
+        "popNorm": 0.39,
+        "etaNorm": 0.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.065854,
+          -11.2011983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Catinga de Cima",
+        "place": "hamlet",
+        "eta": 2591,
+        "popNorm": 0,
+        "etaNorm": 0.46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.03445,
+          -11.287138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Conceição do Saco",
+        "place": "hamlet",
+        "eta": 5606,
+        "popNorm": 0,
+        "etaNorm": 0.99
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.9665665,
+          -10.7425514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boa Vista",
+        "place": "hamlet",
+        "eta": 3427,
+        "popNorm": 0,
+        "etaNorm": 0.61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.251031,
+          -11.420334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cristinápolis",
+        "place": "town",
+        "pop": 16365,
+        "eta": 1032,
+        "popNorm": 0.34,
+        "etaNorm": 0.18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.7560258,
+          -11.4755122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gameleira",
+        "place": "hamlet",
+        "eta": 4454,
+        "popNorm": 0,
+        "etaNorm": 0.79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5507299,
+          -10.7715327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cercado",
+        "place": "hamlet",
+        "eta": 4017,
+        "popNorm": 0,
+        "etaNorm": 0.71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5647522,
+          -10.7497629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gameleira",
+        "place": "hamlet",
+        "eta": 4176,
+        "popNorm": 0,
+        "etaNorm": 0.74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5518511,
+          -10.7608742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terra Vermelha",
+        "place": "hamlet",
+        "eta": 4250,
+        "popNorm": 0,
+        "etaNorm": 0.75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5616274,
+          -10.7254458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boquim",
+        "place": "town",
+        "pop": 25190,
+        "eta": 116,
+        "popNorm": 0.52,
+        "etaNorm": 0.02
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6204228,
+          -11.1450175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miguel dos Anjos",
+        "place": "hamlet",
+        "eta": 1365,
+        "popNorm": 0,
+        "etaNorm": 0.24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.584807,
+          -11.1400894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santo Antônio do Mangue",
+        "place": "hamlet",
+        "eta": 1272,
+        "popNorm": 0,
+        "etaNorm": 0.23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5818603,
+          -11.0845723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Romão",
+        "place": "hamlet",
+        "eta": 1028,
+        "popNorm": 0,
+        "etaNorm": 0.18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6817672,
+          -11.1617163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mangabeira",
+        "place": "hamlet",
+        "eta": 1468,
+        "popNorm": 0,
+        "etaNorm": 0.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5778751,
+          -11.0475288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cabeça d'Anta",
+        "place": "hamlet",
+        "eta": 506,
+        "popNorm": 0,
+        "etaNorm": 0.09
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5841054,
+          -11.1820897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Conjunto Augusto Franco",
+        "place": "hamlet",
+        "eta": 157,
+        "popNorm": 0,
+        "etaNorm": 0.03
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6280261,
+          -11.1421737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Conjunto Pedro Vieira da Costa",
+        "place": "hamlet",
+        "eta": 204,
+        "popNorm": 0,
+        "etaNorm": 0.04
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6164698,
+          -11.1549835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Loteamento São João",
+        "place": "hamlet",
+        "eta": 193,
+        "popNorm": 0,
+        "etaNorm": 0.03
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6189304,
+          -11.1518559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arauá",
+        "place": "town",
+        "pop": 11980,
+        "eta": 754,
+        "popNorm": 0.25,
+        "etaNorm": 0.13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6181058,
+          -11.2644014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bulandeira",
+        "place": "hamlet",
+        "eta": 1076,
+        "popNorm": 0,
+        "etaNorm": 0.19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6283309,
+          -11.2293443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bom Jesus",
+        "place": "hamlet",
+        "eta": 1581,
+        "popNorm": 0,
+        "etaNorm": 0.28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.578427,
+          -11.1999439
+        ]
+      }
     }
   ]
 }
