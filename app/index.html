@@ -45,12 +45,21 @@
       </header>
 
       <section id="legend">
-        <form id="scale">
-          <input type="radio" name="scale" id="radioFixed" value="fixed" checked> <label for="radioFixed">Fixed</label>
-          <input type="radio" name="scale" id="radioNormalized" value="normalized"> <label for="radioNormalized">Normalized</label>
+        <form id="styling">
+          <fieldset id="circleWidth">
+            <legend>Circle width</legend>
+            <input type="radio" name="scale" id="radioPopNormalized" value="radiusPopNormalized" checked> <label for="radioPopNormalized">Population Normalized</label>
+            <input type="radio" name="scale" id="radioPopBuckets" value="radiusPopBuckets"> <label for="radioPopBuckets">Population Buckets</label>
+            <input type="radio" name="scale" id="radioPopFixed" value="radiusFixed"> <label for="radioPopFixed">Fixed Width</label>
+          </fieldset>
+          <fieldset id="colorScale">
+            <legend>Color scale</legend>
+            <input type="radio" name="radius" id="radioEtaBuckets" value="colorEtaBuckets" checked> <label for="radioPopFixed">ETA Buckets</label>
+            <input type="radio" name="radius" id="radioEtaNormalized" value="colorEtaNormalized"> <label for="radioEtaNormalized">ETA Normalized</label>
+          </fieldset>
         </form>
 
-        <div id="fixed">
+        <div id="colorEtaBuckets">
           <h1>Travel time in minutes</h1>
           <ul>
             <li class="c1"><span>0</span></li>
@@ -62,7 +71,7 @@
             <li class="c7"><span>120</span></li>
           </ul>
         </div>
-        <div id="normalized" class="hidden">
+        <div id="colorEtaNormalized" class="hidden">
           <h1>Travel times normalized</h1>
           <span class="gradient">&nbsp;</span>
           <span>0 - 100%</span>

@@ -10,7 +10,7 @@ console.log('Environment', config.environment);
 mapboxgl.accessToken = config.mapboxToken;
 
 const scaleStyles = {
-  'fixed': {
+  'colorEtaBuckets': {
     "base": 1,
     "type": "interval",
     "property": "eta",
@@ -24,7 +24,7 @@ const scaleStyles = {
       [7200, '#4d4d4d']
     ]
   },
-  'normalized': {
+  'colorEtaNormalized': {
     "base": 1,
     "type": "exponential",
     "property": "etaNorm",
@@ -36,6 +36,57 @@ const scaleStyles = {
       [0.67, '#fc8d59'],
       [0.84, '#d73027'],
       [1, '#4d4d4d']
+    ]
+  }
+}
+
+const radiusStyles = {
+  'radiusPopNormalized': {
+    "base": 1,
+    "type": "interval",
+    "property": "popNorm",
+    "stops": [
+      [{ zoom: 0, value: 0}, 2],
+      [{ zoom: 0, value: 1}, 5],
+      [{ zoom: 6, value: 0}, 5],
+      [{ zoom: 6, value: 1}, 25],
+      [{ zoom: 14, value: 0}, 15],
+      [{ zoom: 14, value: 1}, 45]
+    ]
+  },
+  'radiusPopBuckets': {
+    "base": 1,
+    "type": "interval",
+    "property": "pop",
+    "stops": [
+      [{ zoom: 0, value: 0}, 1],
+      [{ zoom: 0, value: 100}, 2],
+      [{ zoom: 0, value: 1000}, 2],
+      [{ zoom: 0, value: 5000}, 2],
+      [{ zoom: 0, value: 10000}, 2],
+      [{ zoom: 0, value: 20000}, 2],
+      [{ zoom: 6, value: 0}, 2],
+      [{ zoom: 6, value: 100}, 4],
+      [{ zoom: 6, value: 1000}, 5],
+      [{ zoom: 6, value: 5000}, 10],
+      [{ zoom: 6, value: 10000}, 15],
+      [{ zoom: 6, value: 20000}, 20],
+      [{ zoom: 14, value: 0}, 5],
+      [{ zoom: 14, value: 100}, 8],
+      [{ zoom: 14, value: 1000}, 15],
+      [{ zoom: 14, value: 5000}, 25],
+      [{ zoom: 14, value: 10000}, 35],
+      [{ zoom: 14, value: 20000}, 45]
+    ]
+  },
+  'radiusFixed': {
+    "base": 1,
+    "type": "interval",
+    "property": "pop",
+    "stops": [
+      [{ zoom: 0, value: 0}, 2],
+      [{ zoom: 6, value: 0}, 5],
+      [{ zoom: 14, value: 0}, 15]
     ]
   }
 }
@@ -63,21 +114,9 @@ if (!mapboxgl.supported()) {
         'visibility': 'visible'
       },
       'paint': {
-        "circle-color": scaleStyles['fixed'],
+        "circle-color": scaleStyles['colorEtaBuckets'],
+        "circle-radius": radiusStyles['radiusPopNormalized'],
         "circle-blur": 0.5,
-        "circle-radius": {
-          "base": 1,
-          "type": "exponential",
-          "property": "popNorm",
-          "stops": [
-            [{ zoom: 0, value: 0}, 1],
-            [{ zoom: 0, value: 1}, 2],
-            [{ zoom: 6, value: 0}, 5],
-            [{ zoom: 6, value: 1}, 15],
-            [{ zoom: 14, value: 0}, 15],
-            [{ zoom: 14, value: 1}, 45]
-          ]
-        },
         "circle-opacity": {
           "stops": [
             [0, 0.1],
@@ -114,19 +153,38 @@ if (!mapboxgl.supported()) {
       map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
     });
 
-    // Change the style of the map
-    var currentScale = 'fixed';
-    document.getElementById('scale').addEventListener('click', function (e) {
+    // Change the Color Scale of the map
+    var currentColorScale = 'colorEtaBuckets';
+    document.getElementById('colorScale').addEventListener('click', function (e) {
       if (e.target.value) {
         var clickedOption = e.target.value;
-        if (clickedOption !== currentScale) {
+        if (clickedOption !== currentColorScale) {
           // Change the style of the points
           map.setPaintProperty('eta', 'circle-color', scaleStyles[clickedOption]);
 
           // Update legend with new scale
-          document.getElementById(currentScale).classList.add('hidden');
+          document.getElementById(currentColorScale).classList.add('hidden');
           document.getElementById(clickedOption).classList.remove('hidden');
-          currentScale = clickedOption
+          currentColorScale = clickedOption
+        }
+      }
+    });
+
+    // Change the Circle Width of the map
+    var currentCircleWidth = 'radiusPopNormalized';
+    document.getElementById('circleWidth').addEventListener('click', function (e) {
+      console.log(currentCircleWidth)
+      console.log(e)
+      if (e.target.value) {
+        var clickedOption = e.target.value;
+        if (clickedOption !== currentCircleWidth) {
+          // Change the style of the points
+          map.setPaintProperty('eta', 'circle-radius', radiusStyles[clickedOption]);
+
+          // // Update legend with new scale
+          // document.getElementById(currentCircleWidth).classList.add('hidden');
+          // document.getElementById(clickedOption).classList.remove('hidden');
+          currentCircleWidth = clickedOption
         }
       }
     });

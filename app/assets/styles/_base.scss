@@ -98,7 +98,15 @@ html {
   font-size: 0.75rem;
   line-height: 1rem;
 
-  #fixed {
+  fieldset {
+    margin-bottom: 0.5rem;
+    legend {
+      font-weight: 800;
+      margin-bottom: 0.25rem;
+    }
+  }
+
+  #colorEtaBuckets {
     li {
       border-top: 1rem;
       border-style: solid;
